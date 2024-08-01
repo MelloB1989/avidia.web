@@ -1,0 +1,27 @@
+{
+  "des": "This is complete web development course.",
+  "labs": [
+    "vs_code"
+  ],
+  "thumb": "https://www.creativeitinstitute.com/images/course/course_1663052056.jpg",
+  "price_inr": "6999",
+  "name": "Web Development",
+  "type": "paid",
+  "intercept": "This is web development course",
+  "preview_video": "https://youtu.be/cSGiXjpUWmE?si=n2iMoOBWWsMufLBO",
+  "start_date": {
+    "_seconds": 1696897800,
+    "_nanoseconds": 16000000
+  },
+  "number_enrolled": "0",
+  "requirements": [
+    "Active internet connection",
+    "A laptop"
+  ],
+  "instructor": {
+    "des": "Lisa a AI model fine tuned on several articles and podcasts on C language, thus being someone who can guide you the best.",
+    "name": "Lisa AI",
+    "pfp": "https://au-spot.s3.ap-south-1.amazonaws.com/assets/lisa1.jpg"
+  },
+  "catch_line": "Cohort 2024: A one stop solution to all your academic problems."
+}

@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify04e8a7e4a5f74-staging-191946-authRole",
+      "UnauthRoleArn": "arn:aws:iam::067493014122:role/amplify-amplify04e8a7e4a5f74-staging-191946-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::067493014122:role/amplify-amplify04e8a7e4a5f74-staging-191946-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-amplify04e8a7e4a5f74-staging-191946-deployment",
+      "UnauthRoleName": "amplify-amplify04e8a7e4a5f74-staging-191946-unauthRole",
+      "StackName": "amplify-amplify04e8a7e4a5f74-staging-191946",
+      "StackId": "arn:aws:cloudformation:ap-south-1:067493014122:stack/amplify-amplify04e8a7e4a5f74-staging-191946/6b31d1f0-946c-11ee-bb72-0635ef33a6b2",
+      "AmplifyAppId": "db8sltcyl0617"
+    },
+    "categories": {
+      "api": {
+        "avidiacore": {}
+      }
+    }
+  }
+}

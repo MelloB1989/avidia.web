@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "avidiacore",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 180,
+      "apiKeyExpirationDate": "2024-06-04T10:29:31.946Z",
+      "keyDescription": "Prod key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

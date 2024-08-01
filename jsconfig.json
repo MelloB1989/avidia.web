@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@mutations": ["./helpers/mutations"],
+      "@queries": ["./helpers/queries"],
+      "@querygen": ["./helpers/querygen"]
+    }
+  }
+}

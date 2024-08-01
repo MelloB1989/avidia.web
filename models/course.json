@@ -1,0 +1,18 @@
+{
+  "course_name": "web_dev",
+  "episodes": [
+    {
+      "episode_name": "Introduction",
+      "lessons": [
+        {
+          "lesson_name": "HTML Basics",
+          "modules": [
+            {
+              "module_name": "Intro to HTML"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

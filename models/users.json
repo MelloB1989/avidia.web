@@ -1,0 +1,31 @@
+{
+  "time_spent": [
+    {
+      "id": "web_dev",
+      "type": "course",
+      "completed_episodes": "3"
+    },
+    {
+      "minutes": "69",
+      "id": "vs_code",
+      "type": "lab"
+    }
+  ],
+  "my_courses": [
+    {
+      "started_from": "2024-07-21T04:32:03Z",
+      "id": "web_dev",
+      "completed_episodes": "3"
+    }
+  ],
+  "active_labs": [
+    {
+      "status": "stopped",
+      "ecs_ip": "10.0.0.2",
+      "start": "2024-07-21T04:32:03Z",
+      "task_running": "arn:aws:ecs:ap-south-2:641688873870:task/Respawn/1672af4d41e14a9b8294adc90e4ddb21",
+      "expiry": "2024-07-23T04:32:03Z",
+      "lab_id": "vs_code"
+    }
+  ]
+}

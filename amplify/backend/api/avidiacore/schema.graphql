@@ -1,0 +1,83 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+type Query {
+    user(id: ID!): User
+    users: [User]
+    course(id: ID!): Course
+    courses: [Course]
+}
+
+type User {
+    id: ID!
+    activeLabs: [Lab]
+    challenges: [Challenge]
+    quizzes: [Quiz]
+    myCourses: [SubscribedCourse]
+    timeSpent: [TimeSpent]
+}
+
+type Lab {
+    ecs_ip: String
+    expiry: String
+    lab_id: String
+    start: String
+    running: String
+}
+
+type Challenge {
+    id: ID!
+    name: String
+    description: String
+    solved: Boolean
+}
+
+type Quiz {
+    id: ID!
+    title: String
+    questions: [Question]
+    passed: Boolean
+}
+
+type Question {
+    id: ID!
+    text: String
+    choices: [String]
+    correctAnswer: String
+}
+
+type SubscribedCourse {
+    id: ID!
+    completedEpisodes: Int
+    startedFrom: String
+    certificate: String
+}
+
+type Course {
+    id: ID!
+    title: String
+    description: String
+    episodes: [Episode]
+}
+
+type Episode {
+    id: ID!
+    title: String
+    duration: Int
+    content: String
+}
+
+type TimeSpent {
+    courseId: ID
+    labId: ID
+    timeInMinutes: Int
+}
+
+type Mutation {
+    createUser(id: ID!): User
+    enrollInCourse(userId: ID!, courseId: ID!): SubscribedCourse
+    startLab(userId: ID!, labId: ID!): Lab
+    completeChallenge(userId: ID!, challengeId: ID!): Challenge
+    passQuiz(userId: ID!, quizId: ID!): Quiz
+}

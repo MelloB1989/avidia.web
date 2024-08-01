@@ -1,0 +1,115 @@
+ /*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.custom-scrollbar-js,
+.custom-scrollbar-css {
+  height: 200px;
+}
+
+
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+  overflow-y: scroll;
+}
+
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #00d2ff;
+  background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+}
+
+ /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.iframel {
+  background:url(https://cdn.global.noobsverse.com/logos/nvai/loading.gif) center center no-repeat;
+  background-color: #000000;
+  overflow: hidden;
+  border:none;
+}
+.loader {
+  background-image: url('https://cdn.global.noobsverse.com/logos/nvai/loading.gif');
+                    background-repeat: no-repeat;
+}
+.iframer {
+  background:url(https://cdn.global.noobsverse.com/ezgif-1-356a24e11f.gif) center center no-repeat;
+  background-color: #080708;
+  overflow: hidden;
+  border:none;
+}
+.splitl {
+  left: 0;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.splitr {
+  right: 0;
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+}
+
+.lblock {
+  left: 0;
+  top: 82%;
+  height: 18%;
+  width: 25%;
+  position: fixed;
+  background-color: #121111;
+}
+.priv {
+  margin-left: 20;
+    margin-right: 20;
+      margin-top: 20;
+}
+
+.next {
+  margin-left: 10;
+    margin-right: 20;
+      margin-top: 20;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.rbt-lesson-letfsidebar,
+.rbt-lesson-rightsidebar {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* .rbt-lesson-letfsidebar {
+  overflow: hidden;
+} */
